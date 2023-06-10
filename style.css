@@ -1,6 +1,12 @@
 @font-face {
-  font-family: MinionPro;
-  src: url('./fonts/MinionPro-Regular.otf') format(‘otf’),;
+  font-family: InputMono;
+  src: url('./fonts/InputMono-Regular.woff2') format('woff2'),
+    url('./fonts/InputMono-Light.woff2') format('woff2'),
+    url('./fonts/InputMono-Medium.woff2') format('woff2'),
+    url('./fonts/InputMono-Bold.woff2') format('woff2'),
+    url('./fonts/InputMono-Black.woff2') format('woff2'),
+    url('./fonts/InputMono-Thin.woff2') format('woff2'),
+    url('./fonts/InputMono-ExtraLight.woff2') format('woff2');
 }
 
 html {

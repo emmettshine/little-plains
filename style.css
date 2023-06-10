@@ -1,92 +1,126 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Your Page Title</title>
-    <style>
-        @font-face {
-            font-family: MinionPro;
-            src: url('./fonts/MinionPro-Regular.otf') format('opentype');
-        }
-        
-        html {
-            height: 100%;
-            width: 100%;
-        }
-        
-        body,
-        main {
-            width: 100%;
-            transition: 8s linear;
-        }
-        
-        main {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            transition: .5s ease-in;
-        }
-        
-        html,
-        body,
-        main,
-        div,
-        p,
-        span,
-        a,
-        ul,
-        li,
-        header,
-        footer {
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-            font-family: 'MinionPro', 'monospace';
-        }
-        
-        a,
-        a:visited {
-            color: inherit;
-        }
-        
-        p {
-            margin-bottom: 32px;
-            line-height: 1.67;
-            font-size: 11px;
-            color: #057cb4;
-        }
-        
-        .container {
-            width: 100%;
-            text-align: center;
-        }
-        
-        #main-img {
-            max-width: 551px;
-            margin: auto;
-            position: relative;
-        }
-        
-        hr {
-            width: 46px;
-            background-color: #F5C3AA;
-            color: #F5C3AA;
-            height: 1px;
-            border: none;
-            outline: none;
-            margin-bottom: 30px;
-        }
-        
-        .text {
-            max-width: 400px;
-            margin: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="text">
-        <p>Brand and experience design for<br>direct-to-consumer and tech-enabled companies.</p>
-    </div>
-</body>
-</html>
+@font-face {
+  font-family: InputMono;
+  src: url('./fonts/InputMono-Regular.woff2') format('woff2'),
+    url('./fonts/InputMono-Light.woff2') format('woff2'),
+    url('./fonts/InputMono-Medium.woff2') format('woff2'),
+    url('./fonts/InputMono-Bold.woff2') format('woff2'),
+    url('./fonts/InputMono-Black.woff2') format('woff2'),
+    url('./fonts/InputMono-Thin.woff2') format('woff2'),
+    url('./fonts/InputMono-ExtraLight.woff2') format('woff2');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body, main {
+  width: 100%;
+  transition: 8s linear;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: .5s ease-in;
+}
+
+html, body, main, div, p, span, a, ul, li, header, footer {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'InputMono', 'courier new', 'monospace';
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+
+p {
+  margin-bottom: 32px;
+  line-height: 1.67;
+  font-size: 11px;
+  color: #057cb4;
+  /*color: #057cb4;*/
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  /*padding-bottom: 32px;*/
+}
+
+
+#main-img {
+  max-width: 551px;
+  margin: auto;
+  position: relative;
+}
+
+hr {
+
+  width: 46px;
+  background-color: #F5C3AA;
+  color: #F5C3AA;
+  height: 1px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.text {
+  max-width: 400px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1365px) {
+  p {
+    /*font-size: 15px;*/
+  }
+  #main-img {
+    /*max-width: 62%*/
+  }
+  .text {
+    /*max-width: 67%;*/
+  }
+}
+
+@media screen and (max-width: 1282px) {
+  p {
+
+  }
+  #main-img {
+    /*max-width: 66%*/
+  }
+  .text {
+    /*max-width: 51%;*/
+  }
+}
+
+
+@media screen and (max-width: 560px) {
+  p {
+
+  }
+  #main-img {
+    max-width: 100%;
+  }
+  .text {
+    max-width: 340px;
+  }
+}

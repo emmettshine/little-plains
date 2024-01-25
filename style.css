@@ -29,7 +29,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%;
-  transition: .5s ease-in;
+  transition: 1s ease-in;
 }
 
 html, body, main, div, p, span, a, ul, li, header, footer {
@@ -67,7 +67,8 @@ p {
 
 
 #main-img {
-  max-width: 551px;
+/*  max-width: 551px;*/
+  max-width: 350px;
   margin: auto;
   position: relative;
 }
@@ -129,7 +130,7 @@ hr {
 
   }
   #main-img {
-    max-width: 100%;
+    max-width: 90%;
   }
   .text {
     max-width: 340px;
